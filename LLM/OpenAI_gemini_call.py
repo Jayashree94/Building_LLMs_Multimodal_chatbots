@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+from IPython.display import Markdown, display
+from openai import OpenAI
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 load_dotenv(override=True)

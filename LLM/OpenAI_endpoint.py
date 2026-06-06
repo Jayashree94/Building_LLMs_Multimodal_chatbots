@@ -30,4 +30,6 @@ response = requests.post(
 
 response.json()
 
+print(response.json())
+
 response.json()["choices"][0]["message"]["content"]

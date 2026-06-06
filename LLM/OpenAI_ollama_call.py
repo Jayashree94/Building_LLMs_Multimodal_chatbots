@@ -13,4 +13,5 @@ ollama = OpenAI(base_url=OLLAMA_BASE_URL, api_key='ollama')
 response = ollama.chat.completions.create(model="llama3.2", messages=[{"role": "user", "content": "Tell me a fun fact"}])
 
 response.choices[0].message.content
+print(response.choices[0].message.content)
 
