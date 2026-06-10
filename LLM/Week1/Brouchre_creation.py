@@ -6,7 +6,8 @@ import json
 from dotenv import load_dotenv
 from IPython.display import Markdown, display, update_display
 from openai import OpenAI
-
+from bs4 import BeautifulSoup
+import requests
 
 
 # Initialize and constants
